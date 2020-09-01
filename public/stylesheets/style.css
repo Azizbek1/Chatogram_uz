@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.title__header{
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 10px red;
+  margin-top: 50px;
+}
+/* chat */
+.chat {
+  margin-top: 50px;
+}
+.chat__join {
+  padding: 30px 40px 30px;
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 10px;
+}
+.input__username-label {
+  cursor: pointer;
+}
+.input__username-room {
+  cursor: pointer;
+}
+.chat__join_header {
+  text-align: center;
+  color: white;
+}
+.header_title {
+  font-weight: 700;
+  font-size: 40px;
+  text-shadow: 0 0 10px rgb(0, 132, 255);
+  color: white;
+}
+
+/* chat__form */
+.chat__form {
+  margin-top: 40px;
+  text-align: center;
+}
+.header_title_fa {
+  color: white;
+}
+.input__username-label {
+  font-weight: 700;
+  color: black;
+  font-size: 20px;
+  text-shadow: 0 0 5px rgb(0, 162, 255);
+  text-decoration: underline;
+}
+.input__username-room {
+  font-weight: 700;
+  color: black;
+  font-size: 20px;
+  text-shadow: 0 0 5px rgb(0, 162, 255);
+  text-decoration: underline;
+}
+.form__input-username,
+.form__input-room {
+  text-align: left;
+}
+
+/* Chat.html  */
+.chat__join__header {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  background: #e6dada; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #274046,
+    #3f3a3a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #274046,
+    #3f3a3a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.chat_main {
+  display: flex;
+}
+.chat_title_chat {
+  font-size: 25px;
+  text-shadow: 0 0 5px blue;
+  font-weight: 700;
+  color: white;
+}
+.chat_title_chat .far {
+  margin-right: 5px;
+}
+
+/* chat messages */
+.chat__messages {
+  padding: 30px;
+  max-height: 500px;
+  overflow-y: scroll;
+  background: rgb(3, 137, 149);
+}
+
+.chat__messages .message {
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #e6e9ff;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+}
+.chat__messages .message .meta {
+  font-size: 15px;
+  font-weight: bold;
+  color: #7386ff;
+  opacity: 0.7;
+  margin-bottom: 7px;
+}
+
+
+
+.chat__sidebar {
+  color: white;
+  background: #274046; /* fallback for old browsers */
+  padding: 20px 20px;
+  min-height: 300px;
+}
+
+.chat__romname {
+  font-size: 20px;
+  padding-top: 20px;
+  text-shadow: 0 0 5px red;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.chat__romname .fas {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.chat__room_name {
+  font-size: 20px;
+  color: rgb(36, 35, 35);
+  font-weight: 700;
+}
+.chat_users {
+  font-size: 20px;
+  padding-top: 20px;
+  text-shadow: 0 0 5px red;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.chat_userss {
+  max-height: 200px;
+  font-size: 20px;
+  color: rgb(36, 35, 35);
+  font-weight: 700;
+  list-style: none;
+  padding: 0;
+  overflow-y: auto;
+}
+.chat_userss li {
+  padding: 10px;
+  width: 100%;
+  color: white;
+}
+.chat__form_chat {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  background: rgb(49, 46, 46);
+}
+.chat-form button .fas {
+  color: white;
+  font-size: 20px;
+}
+.chat__form_chat button {
+  margin-left: 10px;
+}
+.meta__time{
+  color: rgb(179, 21, 0);
+}
+.meta__username{
+  color: rgb(1, 56, 158);
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: underline;
+}
+.meta__text{
+  color: rgb(0, 87, 144);
+}

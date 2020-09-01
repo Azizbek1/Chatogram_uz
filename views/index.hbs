@@ -1,0 +1,38 @@
+<h1 class="title__header" style="text-align: center;">{{title}}</h1>
+
+
+<div class="chat">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="chat__join">
+                    <div class="chat__join_header">
+                        <h1 class="header_title"> Hush kelibsiz    <i class="header_title_fa fas fa-sms"></i>
+                        </h1>
+                    </div>
+                    <div class="chat__main">
+                        <form class="chat__form" action="/chat">
+                            <div class="form__input-username form-group">
+                                <label for="exampleInputEmail1" class="input__username-label">Ismingizni yozing</label>
+                                <input type="text" class="form-control input__username" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Ismingizni yozing" name="username">
+                            </div>
+                            <div class="form__input-room form-group">
+                                <label for="exampleFormControlSelect1" class="input__username-room">Hanaga
+                                    kirish</label>
+                                <select class="input__select form-control" id="exampleFormControlSelect1" name="room">
+                                    <option>PHP</option>
+                                    <option>JavaScript</option>
+                                    <option>Python</option>
+                                    <option>C++</option>
+                                    <option>Java</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-info form__btn_send">Chatga kirish</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

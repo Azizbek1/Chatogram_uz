@@ -1,0 +1,14 @@
+{
+  "name": "chatogram",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Azizbek1 <46714958+Azizbek1@users.noreply.github.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Azizbek1/Chatogram_uz",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}

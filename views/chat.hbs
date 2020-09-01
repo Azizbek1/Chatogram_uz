@@ -1,0 +1,41 @@
+<h1 style="text-align: center;">{{title }}</h1>
+<div class="chat">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="chat__join_chat">
+                    <div class="chat__join__header">
+                        <h1 class="chat_title_chat"><i class="far fa-comment-dots"></i>Chatogram </h1>
+                        <a href="/" class="btn btn-danger chat_exit">Chatdan chiqib ketish</a>
+                    </div>
+                    <div class="chat_main">
+                        <div class="chat__sidebar col-lg-4">
+                            <h3 class="chat__romname"><i class="fas fa-comments"></i> Room Name:</h3>
+                            <h2 class="chat__room_name alert alert-dark" id="room_name">
+                                
+                            </h2>
+                            <h3 class="chat_users"><i class="fas fa-users"></i> Users</h3>
+                            <ul class="chat_userss" id="users">
+                               
+                            </ul>
+                        </div>
+                        <div class="chat__messages col-lg-8">
+                            
+                        </div>
+                    </div>
+                    <div class="chat_form_chat">
+                        <form id="chat-form" class="chat__form_chat">
+                            <input type="text" required placeholder="Hat yuborish" class="form-control">
+                            <button type="submit" class="btn btn-primary chat2__form_btn"><i class="fab fa-telegram-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.4/qs.min.js"></script>
+  <script src="/jquery/dist/jquery.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>   
+  <script src="javascripts/main.js"></script>
+
